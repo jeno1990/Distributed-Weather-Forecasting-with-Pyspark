@@ -40,7 +40,12 @@ pip install -r requirements.txt
 
 #hdfs-site.xml
 
-<pre> ```xml &lt;property&gt; &lt;name&gt;fs.defaultFS&lt;/name&gt; &lt;value&gt;hdfs://0.0.0.0:9000&lt;/value&gt; &lt;/property&gt; ``` </pre>
+```xml
+<property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://0.0.0.0:9000</value>
+</property>
+```
 
 ##Start the Hadoop Distributed File System (HDFS):
 
