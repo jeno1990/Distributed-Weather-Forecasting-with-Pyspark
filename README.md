@@ -59,6 +59,7 @@ Open the notebook weather_forcast_big_data.ipynb.
 Execute the cells in order to initialize Spark, process the data, and run analysis.
 
 If the the worker is not able to read data from master add this code to core-site.xml and hdfs-site.xml
+
 **core-site.xml**
     <property>
         <name>fs.defaultFS</name>
@@ -68,6 +69,7 @@ If the the worker is not able to read data from master add this code to core-sit
         <name>hadoop.http.staticuser.user</name>
         <value><**username**></value>
     </property>
+    
 **hdfs-site.xml**
     <property>
         <name>dfs.namenode.rpc-bind-host</name>
