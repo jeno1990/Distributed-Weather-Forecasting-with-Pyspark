@@ -25,7 +25,7 @@ Update the core-site.xml and hdfs-site.xml files with the following properties:
 
 core-site.xml
 ```xml
-<pre> 
+
    <property>
     <name>fs.defaultFS</name>
     <value>hdfs://0.0.0.0:9000</value>
@@ -34,7 +34,7 @@ core-site.xml
     <name>hadoop.http.staticuser.user</name>
     <value>--username--</value>
 </property>
-   </pre>
+
 ```
 hdfs-site.xml
 
