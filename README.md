@@ -27,7 +27,7 @@ pip install -r requirements.txt
 #Update the core-site.xml and hdfs-site.xml files with the following properties:
 
 #core-site.xml
-<pre> ```xml 
+<pre> 
    <property>
     <name>fs.defaultFS</name>
     <value>hdfs://0.0.0.0:9000</value>
@@ -36,7 +36,7 @@ pip install -r requirements.txt
     <name>hadoop.http.staticuser.user</name>
     <value>--username--</value>
 </property>
-   ``` </pre>
+   </pre>
 
 #hdfs-site.xml
 
