@@ -40,10 +40,7 @@ pip install -r requirements.txt
 
 #hdfs-site.xml
 
-<property>
-    <name>dfs.namenode.rpc-bind-host</name>
-    <value>0.0.0.0</value>
-</property>
+<pre> ```xml &lt;property&gt; &lt;name&gt;fs.defaultFS&lt;/name&gt; &lt;value&gt;hdfs://0.0.0.0:9000&lt;/value&gt; &lt;/property&gt; ``` </pre>
 
 ##Start the Hadoop Distributed File System (HDFS):
 
